@@ -105,6 +105,7 @@ public class StandAloneTest extends BaseTest{
 		Thread.sleep(2000);
 	String confirmmessage =confirmationPage.getconfirmationmessage();
 		Assert.assertTrue(confirmmessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		System.out.println("test");
 			
 
 	}
