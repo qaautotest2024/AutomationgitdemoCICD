@@ -5,13 +5,17 @@
     <listener class-name="rahulshettyacademy.TestComponents.Listeners"/>
   </listeners>
   <test thread-count="5" parallel="tests" name="Error Validations Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="ErrorHandling"/>
+      </run>
+    </groups>
     <classes>
       <class name="rahulshettyacademy.tests.ErrorValidations">
         <methods>
           <include name="Loginerrorvalidation"/>
           <include name="tearDown"/>
           <include name="launchApplication"/>
-          <include name="config"/>
         </methods>
       </class> <!-- rahulshettyacademy.tests.ErrorValidations -->
     </classes>
