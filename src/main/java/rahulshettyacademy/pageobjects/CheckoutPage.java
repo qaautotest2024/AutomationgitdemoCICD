@@ -58,6 +58,8 @@ public class CheckoutPage extends AbstractComponent{
 		submit.click();
 		System.out.println("git");
 		
+		System.out.println("Ramzan");
+		
 		return new ConfirmationPage(driver);
 	}
 	

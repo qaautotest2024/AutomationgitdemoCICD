@@ -1,3 +1,4 @@
+
 package rahulshettyacademy.TestComponents;
 
 import java.io.File;
@@ -59,7 +60,7 @@ public class BaseTest {
 		}
 		else if (browserName.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", "C://Users//HP//Desktop//Firefox//geckodriver");
+			System.setProperty("webdriver.gecko.driver", "C://Users//HP//Desktop//firefox//geckodriver");
 			 driver = new FirefoxDriver();
 		}
 		else if(browserName.equalsIgnoreCase("edge"))
